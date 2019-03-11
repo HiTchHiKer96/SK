@@ -1,3 +1,4 @@
+komendy:
 - ip a
 - cat /etc/resolv.conf
 - ping
