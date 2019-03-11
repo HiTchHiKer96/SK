@@ -13,7 +13,8 @@
 
 - systemctl stop firewalld
 
-
+---
+---
 
 
 Ustawianie parametrów sieci
