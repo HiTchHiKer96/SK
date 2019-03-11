@@ -11,7 +11,7 @@
 - curl -X POST -d '{"text":"hello world"}' http://10.0.5.5:8888/chat
 - yum install curl
 
- -systemctl stop firewalld
+- systemctl stop firewalld
 
 
 
