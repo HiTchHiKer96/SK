@@ -5,6 +5,7 @@ zmiana nazwy:
 - /ect/hosts
 - /ect/hostname
 
+komendy:
 - ip addr
 - ip addr show dev enp0s3
 
