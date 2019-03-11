@@ -32,13 +32,15 @@ aby załączyć obrazek
 ![alt schemat](images/my-network-schema.png)
 ```
 
+---
+---
 
 komendy:
-ifconfig
-ifup
+- ifconfig
+- ifup
 
-sudo apt install network-manager
-sudo systemctl start network-manager
-nmcli device show
+- sudo apt install network-manager
+- sudo systemctl start network-manager
+- nmcli device show
 
-resolvectl status
+- resolvectl status
