@@ -1,8 +1,8 @@
-ip a
-cat /etc/resolv.conf
-ping
-ifup
-ifdown
+- ip a
+- cat /etc/resolv.conf
+- ping
+- ifup
+- ifdown
 
 yum install git (dla centos)
 git clone
