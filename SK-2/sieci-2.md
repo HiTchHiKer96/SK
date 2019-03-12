@@ -68,7 +68,6 @@ Efekt -> nie działa
 
 
 Nowa statyczna konfiguracja 
-
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
