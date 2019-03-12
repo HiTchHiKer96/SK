@@ -43,7 +43,6 @@ Weryfikacja połączenia
 
 Polecenie -> ping
 
-
 Efekt -> działa
 
 
@@ -62,13 +61,11 @@ Wejściowe parametry sieci
 
 Weryfikacja połączenia
 
-Polecenie
-```ping
-```
+Polecenie -> ping
 
-Efekt
-```nie działa
-```
+
+Efekt -> nie działa
+
 
 Nowa statyczna konfiguracja 
 
@@ -85,13 +82,11 @@ Nowa statyczna konfiguracja
 
 Weryfikacja połączenia
 
-Polecenie
-```ping
-```
+Polecenie -> ping
 
-Efekt
-```działa
-```
+
+Efekt -> działa
+
 
 Warto wiedzieć
 --------------
