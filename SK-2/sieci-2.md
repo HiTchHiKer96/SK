@@ -101,9 +101,9 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
+| Lokalizacja pliku z konfiguracją sieci| /etc/resolv.conf | |
+| UP -> Wyłączenie interfejsu sieciowego| ifup | |
+| DOWN -> Włączenie interfejsu sieciowego| ifdown | |
 | Sprawdzenie obecnych parametrów | | |
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
