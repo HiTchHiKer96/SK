@@ -1,20 +1,20 @@
-VM:
-- https://tlk.io/sk-2019
-- root 123qwe
+* VM:
+   * https://tlk.io/sk-2019
+   * root 123qwe
 
-zmiana nazwy:
-- /ect/hosts
-- /ect/hostname
+- zmiana nazwy:
+   - /ect/hosts
+   - /ect/hostname
 
-komendy:
-- ip addr
-- ip addr show dev enp0s3
+- komendy:
+   - ip addr
+   - ip addr show dev enp0s3
 
-- ip addr add 172.16.100.10/24 dev enp0s3
-- ip addr del 172.16.100.10/24 dev enp0s3
+   - ip addr add 172.16.100.10/24 dev enp0s3
+   - ip addr del 172.16.100.10/24 dev enp0s3
 
-- ip link set enp0s3 down
-- ip link set enp0s3 up
+   - ip link set enp0s3 down
+   - ip link set enp0s3 up
 
 ---
 ---
