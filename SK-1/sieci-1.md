@@ -1,3 +1,18 @@
+
+komendy:
+- ifconfig
+- ifup
+
+- sudo apt install network-manager
+- sudo systemctl start network-manager
+- nmcli device show
+
+- resolvectl status
+
+
+---
+---
+
 System operacyjny w środowisku sieciowym
 =========================================
 
@@ -32,15 +47,4 @@ aby załączyć obrazek
 ![alt schemat](images/my-network-schema.png)
 ```
 
----
----
 
-komendy:
-- ifconfig
-- ifup
-
-- sudo apt install network-manager
-- sudo systemctl start network-manager
-- nmcli device show
-
-- resolvectl status
