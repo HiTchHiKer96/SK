@@ -1,4 +1,3 @@
-
 komendy:
 - ifconfig
 - ifup
