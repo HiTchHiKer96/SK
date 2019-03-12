@@ -42,12 +42,12 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```ping
-```
+- ping
+
 
 Efekt
-```działa
-```
+- działa
+
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
