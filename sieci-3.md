@@ -1,3 +1,4 @@
+VM:
 - https://tlk.io/sk-2019
 - root 123qwe
 
@@ -48,8 +49,11 @@ ip
 |   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
+|               |  ip addr add 172.16.100.10/24 dev enp0s3  | dodawanie adresu statycznego            |
+|               |  ip addr del 172.16.100.10/24 dev enp0s3  | usuwanie adresu statycznego            |
 |   ``link``    |     |  |
-|               |     |   |
+|               |  ip link set enp0s3 down   | interfejs down   |
+|               |  ip link set enp0s3 up   | interfejs up   |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
