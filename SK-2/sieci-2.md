@@ -41,12 +41,10 @@ Wejściowe parametry sieci
 
 Weryfikacja połączenia
 
-Polecenie
-- ping
+Polecenie -> ping
 
 
-Efekt
-- działa
+Efekt -> działa
 
 
 Statyczna konfiguracja parametrów połączenia
