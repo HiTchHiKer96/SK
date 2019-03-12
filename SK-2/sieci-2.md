@@ -42,11 +42,11 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
+```ping
 ```
 
 Efekt
-```
+```działa
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -65,11 +65,11 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
+```ping
 ```
 
 Efekt
-```
+```nie działa
 ```
 
 Nowa statyczna konfiguracja 
@@ -78,21 +78,21 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 172.16.100.10 | |
+| MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 172.16.100.20 | |
+| MASKA  | 255.255.255.0 | |
 
 Weryfikacja połączenia
 
 Polecenie
-```
+```ping
 ```
 
 Efekt
-```
+```działa
 ```
 
 Warto wiedzieć
