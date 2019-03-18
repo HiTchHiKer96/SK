@@ -26,7 +26,9 @@ ip
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
-|               |   ``ip route add``             | |
+|               |   ``ip route add default via 10.0.10.1 dev enp0s3``             | |
+|               |   ``ip route show``             | |
+|               |   ``ip route get 10.0.10.1``             | |
 
 
 Zadanie
