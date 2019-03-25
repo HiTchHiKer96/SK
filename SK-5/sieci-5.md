@@ -1,3 +1,11 @@
+Komendy:
+---
+- /etc/network/interfaces
+- up ip route add 1.2.3.4 via 4.3.2.1 dev enp0s3 - w pliku
+
+
+---
+---
 Podsieci i nadsieci IP
 ----------------------
 
