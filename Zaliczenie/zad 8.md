@@ -31,7 +31,7 @@
  
   - Na PC0 wpisujemy następujące komendy aby dodać reguły:
     * **iptables -t nat -A POSTROUTING -s 172.22.128.0/23 -o enp0s3 -j MASQUERADE**
-    * **iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE**
-  - Komendę **iptables-save > /etc/iptables.up.rules** aby je zapisać
-  - Oraz dopisujemy **post-up iptables-restore < /etc/iptables.up.rules** w 
+    * **iptables -t nat -A POSTROUTING -s 172.22.160.0/19 -o enp0s3 -j MASQUERADE**
+  - Komendę **sudo sh -c "iptables-save > /etc/iptables.rules"** aby je zapisać
+  - Oraz dopisujemy **post-up iptables-restore < /etc/iptables.rules** w 
     **/etc/network/interfaces** aby zostały wczytane po restarcie
