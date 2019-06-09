@@ -16,7 +16,12 @@
   PC1 | enp0s8 | 172.22.128.10 | 255.255.254.0 (/23)
   PC2 | enp0s8 | 172.22.160.10 | 255.255.224.0 (/19)
   
-  - adresy dodajemy modyfikując plik **/etc/network/interfaces**
+  - adresy dodajemy modyfikując plik **/etc/network/interfaces**, np. dla PC0 i enp0s8:  
+    **auto enp0s8  
+      iface enp0s8 inet static  
+      adress 172.22.128.1  
+      netmask 255.255.254.0**
+    
   
   ### 3. Przekazywanie pakietów oraz routing:
   
