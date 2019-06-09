@@ -35,3 +35,5 @@
   - Komendę **sudo sh -c "iptables-save > /etc/iptables.rules"** aby je zapisać
   - Oraz dopisujemy **post-up iptables-restore < /etc/iptables.rules** w 
     **/etc/network/interfaces** aby zostały wczytane po restarcie
+    
+![zadanie 8](Zad 8.svg)
