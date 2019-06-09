@@ -36,4 +36,5 @@
   - Oraz dopisujemy **post-up iptables-restore < /etc/iptables.rules** w 
     **/etc/network/interfaces** aby zostały wczytane po restarcie
     
+## Diagram:
 ![zadanie 8](Zad_8.svg)
