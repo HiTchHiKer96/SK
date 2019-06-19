@@ -42,7 +42,7 @@
     **/etc/network/interfaces** aby zostały wczytane po restarcie
  ### 5. DNS:
  
-  - w **/etc/resolv.conf** dopisujemy **nameserver 1.1.1.1***
+  - w **/etc/resolv.conf** dopisujemy **nameserver 1.1.1.1**
     
 ## Diagram:
 ![zadanie 8](Zad_8.svg)
