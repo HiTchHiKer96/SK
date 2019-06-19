@@ -40,6 +40,9 @@
   - Komendę **sudo sh -c "iptables-save > /etc/iptables.rules"** aby je zapisać
   - Oraz dopisujemy **post-up iptables-restore < /etc/iptables.rules** w 
     **/etc/network/interfaces** aby zostały wczytane po restarcie
+ ### 5. DNS:
+ 
+  - w **/etc/resolv.conf** dopisujemy **nameserver 1.1.1.1***
     
 ## Diagram:
 ![zadanie 8](Zad_8.svg)
